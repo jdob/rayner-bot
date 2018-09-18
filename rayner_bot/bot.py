@@ -7,8 +7,8 @@ from rayner_bot import client
 
 
 DEFAULTS = {
-    'RUNS_MIN': 3,
-    'RUNS_MAX': 10,
+    'RUNS_MIN': 5,
+    'RUNS_MAX': 15,
     'SLEEP_MIN': 1,
     'SLEEP_MAX': 3,
 }
@@ -30,8 +30,15 @@ NAMES = (
     'Bruce',
     'Diana',
     'Hal',
+    'Kyle',
+    'John',
     'Barry',
+    'Wally',
     'Victor',
+    'Oliver',
+    'Roy',
+    'Jesse',
+    'Ronnie',
 )
 
 
