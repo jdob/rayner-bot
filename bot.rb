@@ -1,5 +1,6 @@
 require 'net/http'
 
+# Default values controlling how the bot will run
 DEFAULTS = {
     'RUNS_MIN' => 3,
     'RUNS_MAX' => 10,
@@ -7,18 +8,24 @@ DEFAULTS = {
     'SLEEP_MAX' => 3,
 }
 
+# Set of colors to choose for the set; rather than randomly generate any
+# color, these are curated to be the most vibrant for a demo
 COLORS = [
-    'ff0000',
-    '00ff00',
-    '0000ff',
-    '9542f4',
-    'f441b8',
-    'f49441',
-    'f4eb41',
-    'b8f441',
-    '41f4e2',
+    'ff4534',  # red
+    'ff8d1f',  # orange
+    'ffcd33',  # yellow
+    'ebff43',  # green
+    'b6b2ff',  # cyan
+    '5f16ff',  # blue
+    '7f54ff',  # violet
+    'ff3dab',  # pink-ish
+    'ffdb38',  # lime
+    '7f66ff',  # sky blue
+    '6f4aff',  # purple
+
 ]
 
+# Seed names for the client name to appear in the logs
 NAMES = [
     'Clark',
     'Bruce',
