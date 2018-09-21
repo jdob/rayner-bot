@@ -12,7 +12,7 @@ spec:
       containers:
       - name: bot
         image: jdob/rayner-bot:latest
-        command: ["python", "rayner_bot/runner.py"]
+        command: ["ruby", "bot.rb"]
         env:
           - name: HOST
             value: rayner-service
